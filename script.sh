@@ -10,6 +10,7 @@ while [[ $mask -lt 1 || $mask -gt 32 ]]; do
     read mask
 done
 
+#add dns and gw setting
 echo "Hostname?"
 read name
 
