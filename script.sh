@@ -17,7 +17,7 @@ read name
 apt update && apt upgrade -y
 apt autoremove
 apt clean
-apt install git curl tree wget neofetch htop tldr vim glances lsb-release unzip ufw openssh-server -y
+apt install git curl wget htop tldr vim lsb-release unzip ufw openssh-server -y
 
 hostnamectl set-hostname $name
 echo "127.0.0.1 $name" >> /etc/hosts
